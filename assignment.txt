@@ -1,0 +1,114 @@
+a)	Windows 11 installation
+1.	Ensure your PC meets the minimum system requirements for Windows 11
+2.	Backup Your Data:Before upgrading, it’s important to back up your files to prevent any data loss.
+3.	Download Windows 11:
+Visit the official Windows 11 download page.
+You can choose to create Windows 11 installation media or download an ISO file.
+4.	Create Installation Media:
+If you choose to create installation media, you’ll need a USB flash drive with at least 8GB of space.
+5.	Use the Media Creation Tool provided by Microsoft to create bootable USB installation media.
+6.	Insert the installation media into your PC and reboot.
+7.	Boot from the USB drive by pressing the appropriate key during startup (often F2, F12, Del, or Esc).
+8.	Follow the on-screen instructions to install Windows 11.
+9.	After installation, go through the setup process, including configuring settings and signing in with a Microsoft account.
+b)	vscode installation
+1.	Head over to the official VS Code download page: [download visual studio code ON Visual Studio code.visualstudio.com]
+2.	Click on the Windows download link to download the .exe installer.
+3.	Once the download is complete, locate the downloaded file 
+4.	Double-click on the VSCodeUserSetup-{version}.exe file to run the installer.
+5.	A setup wizard will open. Accept the agreement and click Next.
+6.	Choose the destination folder where you want VSCode to be installed and click Next.
+7.	Select the start menu folder for the VSCode shortcuts and click Next.
+8.	Review your choices and click Install to begin the installation.
+9.	Once installed, click Finish to close the setup wizard and launch Visual Studio Code.
+
+c)	Version control setup
+1.	Installing Git:
+Download Git from git-scm.com.
+Run the installer and follow the prompts to install Git on your machine.
+2.	Configuring Git:
+Open your command prompt or terminal.
+The set up your global username: git config --global user.name "Kimaiyoo"
+Set your global email: git config --global user.email "naomijepkorir18@.com"
+3.	Create a GitHub Account:
+Go to GitHub and sign up for an account.
+Follow the prompts to complete your profile setup.
+4.	Initialize a Git Repository:
+Navigate to your project directory in the command prompt or terminal.
+Initialize a new Git repository with: git init
+Add files to the repository with: git add . (the period adds all files)
+Make your first commit with: git commit -m "Initial commit"
+5.	Connect to GitHub Repository:
+Create a new repository on GitHub.
+Give your repository a name and an optional description.
+Copy the URL provided by GitHub for your new repository.
+Link your local repository to the GitHub repository with: git remote add origin [URL] (replace [URL] with the copied URL)
+Push your commit to GitHub with: git push -u origin main
+
+d)	Installation of programming languages
+Dart with flutter
+1.	Download Dart SDK:
+Go to the Dart SDK archive page.
+Click on the Dart SDK link to start the download. A zip file will be downloaded.
+2.	Extract Zip File:
+Extract the contents of the Dart SDK zip file to a location on your computer.
+3.	Add Dart Path to PATH Environment Variable:
+To run Dart from any command prompt, you need to add the path to Dart’s bin folder to your PATH environment variable.
+On Windows, search for “Environment Variables” in your start menu and select “Edit the system environment variables.”
+In the System Properties window, click on “Environment Variables.”
+Under “System variables,” find and select “Path” and click “Edit.”
+Click “New” and add the path to your Dart bin folder (e.g., C:\path\to\dart-sdk\bin).
+Click “OK” to close all dialog boxes.
+4.	Restart Command Prompt:
+Close any open command prompts and reopen them so that they recognize the new PATH variable.
+5.	Verify Installation:
+Open a new command prompt and type dart --version to verify that Dart is installed correctly.
+Flutter
+1.	Download Flutter SDK:
+Visit the Flutter installation page.
+Click on the “Windows” tab and download the latest stable release of the Flutter SDK.
+2.	Extract the Zip File:
+Extract the contents of the Flutter zip file to a desired location on your file system (e.g., C:\flutter\flutter).
+3.	Update Your Path:
+Add the full path to Flutter’s bin directory to your PATH environment variable.
+4.	Run Flutter Doctor:
+Open git by clicking on the folder and select “git bash here”.
+Run the following command to check for any dependencies you may need to install to complete the setup: flutter doctor
+You can additionally run: flutter –version to ensure you’ve downloaded the right thing.
+
+Python
+
+1.	Download Python:
+Visit the official Python downloads page.
+Click on the “Download Python” button for the latest version, or select a specific version if required for your project.
+2.	Run Installer:
+Once the installer is downloaded, run it.
+Make sure to check the box that says “Add Python 3.x to PATH” before you click “Install Now.”
+3.	Verify Installation:
+Open a command prompt and type python --version to verify that Python is installed correctly.
+You should see the version of Python that you installed.
+4.	Install pip :
+Run python get-pip.py in your command prompt.
+5.	Test pip Installation:
+In your command prompt, type pip --version to ensure pip was installed correctly.
+
+ 
+e)	Configure a Database (MySQL):
+
+1.	Download MySQL Installer:
+Visit the MySQL Downloads page.
+Select “MySQL Installer for Windows.”
+Choose the version that suits your needs: I selected the 8.0.37 Web installer option. 
+2.	Run the Installer:
+Once downloaded, run the MySQL Installer.
+The installer will guide you through the setup process.
+3.	Choose Components:
+I selected server only and was guided to download necessary products.
+4.	Configure MySQL Server:
+The installer will prompt you to configure the MySQL Server. This includes setting up root password, configuring network options, and deciding on default schema.
+5.	Complete Installation:
+Follow through with the installation wizard until completion.
+Once installed, you can launch MySQL Workbench or other tools included in your setup.
+6.	Verify Installation:
+Open a command prompt and type mysql -u root -p to access the MySQL shell.
+Enter the root password when prompted.
